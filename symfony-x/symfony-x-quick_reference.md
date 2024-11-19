@@ -18,8 +18,9 @@ Symfony-X Quick Reference (QR) contains common CLI used during the course of Sym
    php bin/console importmap:require NPM_LIBRARY --download
    ```
 
-#### Troubleshooting
+## Troubleshooting
 
+#### Find invalid imports
 Find invalid imports that appear anywhere in your code. Run...
 
    ```bash
@@ -33,9 +34,15 @@ Clears Symfony's cache and also clears an internal cache in AssetMapper. Now run
 
 This re-builds the cache for all of those assets internally. When it does that, it parses your files and reports any missing imports.
 
+#### View tailwind config
+
+   ```bash
+   php bin/console debug:config symfonycasts_tailwind
+   ```
+
 ## Stimulus
 
-Lazy loading stimulus controllers
+#### Lazy loading by adding the middle line to js
 
    ```js
    // imports

@@ -7,7 +7,5 @@ import './bootstrap.js';
  */
 
 import './styles/app.css'; // i hate this line
-import './styles/default.css';
-import './vendor/bootstrap/dist/css/bootstrap.min.css';
 
 console.log('assets/app.js - check 🎉');
