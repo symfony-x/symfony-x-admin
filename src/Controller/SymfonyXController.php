@@ -35,13 +35,10 @@ class SymfonyXController extends BaseController
 
     /**
      * Shows the current HTML of the desired template, so you can view it as you work on it.
-     * @todo tool - AI integration with OpenAI or Gemini Canvas to generate HTML for a template.
      *
      * This method renders the 'complete.html.twig' template located in the 'symfony-x' directory.
      * It is accessible via the '/Symfony-X/_dev/default-html' URL and is named 'dev_default_html' for
      * routing purposes.
-     *
-     * @Route('/Symfony-X/_dev/default-html', name: 'dev_default_html')
      *
      * @return Response The HTTP response containing the rendered default HTML page.
      */
