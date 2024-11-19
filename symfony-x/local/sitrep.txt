@@ -1,8 +1,0 @@
-Situation Report
--------------------------------------------------------------
-Currently working on...
-
-need to
-1. run prod locally
-2. run production on ECS
-3
