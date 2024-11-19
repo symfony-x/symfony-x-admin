@@ -39,7 +39,7 @@ Ryan, you are in my prayers.
 
 ## Documentation
 
-   [Click Here](dev/symfony-x/documentation/README.md) for the Symfony-X documentation.
+   [Click Here](symfony-x/symfony-x/documentation/README.md) for the Symfony-X documentation.
 
 ## About
 
