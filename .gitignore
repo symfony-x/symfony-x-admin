@@ -9,19 +9,19 @@
 /vendor/
 
 # Ignore all contents within dev/local/
-symfony-x/local/**
+symfony-x/dev/local/**
 
 # Do not ignore the dev/local/ directory itself
-!/symfony-x/local/
+!/symfony-x/dev/local/
 
 # Do not ignore the dev/local/tmp/ directory
-!/symfony-x/local/tmp/
+!/symfony-x/dev/local/tmp/
 
 # Ignore all contents within dev/local/tmp/
-symfony-x/local/tmp/**
+symfony-x/dev/local/tmp/**
 
 # Do not ignore the specific file dev/local/readme.md
-!/symfony-x/local/readme.md
+!/symfony-x/dev/local/readme.md
 ###< symfony/framework-bundle ###
 
 ###> symfony/asset-mapper ###
