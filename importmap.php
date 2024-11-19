@@ -35,4 +35,7 @@ return [
         'version' => '5.3.3',
         'type' => 'css',
     ],
+    'js-confetti' => [
+        'version' => '0.12.0',
+    ],
 ];
