@@ -1,6 +1,6 @@
-# Project Documentation
+# Symfony-X
 
-Welcome to the Project Documentation! This section provides links to detailed guides and reference materials on various aspects of the project, including the Makefile, Franken-PHP, Symfony, Docker setup, and more.
+Welcome to the Symfony-X Project Documentation! This section provides links to detailed guides and reference materials on various aspects of the project.
 
 ---
 
