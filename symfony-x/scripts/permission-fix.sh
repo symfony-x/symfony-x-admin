@@ -1,12 +1,10 @@
 #!/bin/bash
 
-
-# @todo: fix in entrypoint.sh
-
 # -------------------------------------------------------------------
 # Script Name: permission-fix.sh
 # Description: Recursively changes ownership of the ../vendor directory
 #              to the specified user and group.
+# NOTES: isn't needed - but can be repurposed for other directories easily
 # Usage: ./permission-fix.sh
 # -------------------------------------------------------------------
 

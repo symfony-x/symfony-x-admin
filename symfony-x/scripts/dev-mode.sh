@@ -12,7 +12,7 @@
 # -------------------------------------------------------------------
 
 # set the working directory to the root of the project
-cd ..
+cd ../..
 
 # start docker compose
 docker compose up -d

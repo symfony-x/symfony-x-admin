@@ -1,15 +1,18 @@
 #!/bin/bash
 
-# @todo: move to makefile
 
 # -------------------------------------------------------------------
+# @todo: move to makefile
 # Script Name: initial-setup.sh
-# Description: Run once to set up the local dev environment.
+# Description: WARNING : THIS SCRIPT HAS IDEAS BUT IS PRACTICALLY FUBAR AT THE MOMENT.
+# 					- Run once to set up the local dev environment in some docker/no-docker universe.
+#
 # Usage: ./intial-setup.sh
+#
 # -------------------------------------------------------------------
 
 # set the working directory to the root of the project
-cd ..
+cd ../..
 
 # Tailwind initialization
 docker exec -it symfony-x php bin/console tailwind:build --watch
