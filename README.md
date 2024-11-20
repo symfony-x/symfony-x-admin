@@ -84,7 +84,7 @@ Ultimately these will probably be dev repos. I'd like to have a Symfony new proj
 
 ## Stack
 
-Symfony-X uses...
+The Symfony-X STACK uses...
 
 - [Symfony Docker](https://github.com/dunglas/symfony-docker)
 - [Franken-PHP](https://frankenphp.dev/) (on [Caddy](https://caddyserver.com/))
@@ -94,6 +94,9 @@ Symfony-X uses...
 - [Turbo](https://turbo.hotwired.dev/)
 - [Tailwind](https://tailwindcss.com/)
 - [Flowbite](https://flowbite.com/) 
+
+This includes the fundamentals of the LAST Stack plus additional elements that enable rapid development.
+[Click Here](symfony-x/documentation/stack.md) for more info on the Symfony-X stack.
 
 ## Deployments
 
