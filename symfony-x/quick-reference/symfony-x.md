@@ -17,7 +17,11 @@ Symfony-X Quick Reference (QR) contains common CLI used during the course of Sym
    ```bash
    php bin/console importmap:require NPM_LIBRARY --download
    ```
-
+   
+   ```bash
+   php bin/console importmap:require @stimulus-components/popover
+   ```
+   
 ## Troubleshooting
 
 #### Find invalid imports
@@ -65,3 +69,11 @@ This re-builds the cache for all of those assets internally. When it does that, 
         }
    }
    ```
+## Twig 
+
+#### Twig Components
+
+   ```bash
+    php bin/console debug:twig-component
+   ```
+
