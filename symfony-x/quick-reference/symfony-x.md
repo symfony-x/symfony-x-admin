@@ -49,5 +49,19 @@ This re-builds the cache for all of those assets internally. When it does that, 
    /* stimulusFetch: 'lazy' */
    // code
    ```
+## CSS / Tailwind / Flowbite
 
+#### Lazy load css
 
+   ```js
+   export default function (message, inPeace = false) 
+   {
+        if (!inPeace) 
+        {
+            setTimeout(() => 
+            {
+                import('../styles/alien-greeting.css');
+            } , 4000);
+        }
+   }
+   ```
