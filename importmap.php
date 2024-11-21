@@ -38,4 +38,7 @@ return [
     'js-confetti' => [
         'version' => '0.12.0',
     ],
+    '@stimulus-components/popover' => [
+        'version' => '7.0.0',
+    ],
 ];
