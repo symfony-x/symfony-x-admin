@@ -2,10 +2,13 @@
 
 Symfony-X is a Symfony [LAST Stack](https://symfonycasts.com/screencast/last-stack/last-stack) rapid project development and deployment template for the purpose of creating a minimal viable product in minimal viable time.
 
-Current Status
-## NOT ready yet
-ETA - a week-ish
-#### As of 18 Nov 2024. 
+## Current Status
+
+# NOT ready yet
+
+ETA - oh, it just got real. My father's death could have easily been prevented with a basic app using simple LLMs. Need a couple days... but then... omg 
+
+#### As of 24 Nov 2024. 
 
 Check back soon!
 
