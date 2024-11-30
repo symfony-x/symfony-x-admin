@@ -44,4 +44,14 @@ return [
     'debounce' => [
         'version' => '2.2.0',
     ],
+    'flowbite' => [
+        'version' => '2.5.2',
+    ],
+    'flowbite-datepicker' => [
+        'version' => '1.3.0',
+    ],
+    'flowbite/dist/flowbite.min.css' => [
+        'version' => '2.5.2',
+        'type' => 'css',
+    ],
 ];
