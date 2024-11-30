@@ -16,14 +16,15 @@
             <link rel="stylesheet" href="{{ asset('styles/app.css') }}">
             <link rel="stylesheet" href="{{ asset('styles/default.css') }}">
             {#}
-
+            <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css"  rel="stylesheet" />
         {% endblock %}
 
         {% block javascripts %}
+            <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
             {% block importmap %}{{ importmap('app') }}{% endblock %}
         {% endblock %}
     </head>
-    <body>
+
         {% block body %}{% endblock %}
-    </body>
+
 </html>

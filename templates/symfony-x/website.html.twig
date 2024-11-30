@@ -1,0 +1,23 @@
+{# #}
+{% extends 'symfony-x/base.html.twig' %}
+
+{% block title %}Symfony-X{% endblock %}
+
+{% block body %}
+<body class="bg-black text-white">
+    <header>
+        {% include 'symfony-x/_header.html.twig' %}
+        {% include 'symfony-x/_nav.html.twig' %}
+    </header>
+    <main>
+    <div>
+    {% block content %}
+
+    {% endblock %}
+    </div>
+    </main>
+    <footer>
+    {% include 'symfony-x/_footer.html.twig' %}
+    </footer>
+</body>
+{% endblock %}
