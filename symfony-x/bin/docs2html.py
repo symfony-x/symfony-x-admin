@@ -4,10 +4,10 @@ from jinja2 import Template
 
 # Twig template structure
 TEMPLATE = """
-{% extends 'base.html.twig' %}
+{% extends 'symfony-x/website.html.twig' %}
 
 {% block title %}
-    Documentation - {{ title }}
+    Symfony-X Docs - {{ title }}
 {% endblock %}
 
 {% block content %}
@@ -19,7 +19,7 @@ TEMPLATE = """
 
 # Paths
 INPUT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../documentation/"))
-OUTPUT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../templates/symfony-x/docs/"))
+OUTPUT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../templates/symfony-x/docs/"))
 
 # Function to process Markdown files and convert them to Twig templates
 def convert_markdown_to_twig(input_dir, output_dir):
