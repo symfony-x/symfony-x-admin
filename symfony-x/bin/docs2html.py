@@ -17,6 +17,10 @@ TEMPLATE = """
 {% endblock %}
 """
 
+# Paths
+INPUT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../documentation/"))
+OUTPUT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../templates/symfony-x/docs/"))
+
 # Function to process Markdown files and convert them to Twig templates
 def convert_markdown_to_twig(input_dir, output_dir):
     for root, _, files in os.walk(input_dir):
@@ -50,9 +54,7 @@ def convert_markdown_to_twig(input_dir, output_dir):
 
                 print(f"Generated: {output_path}")
 
-# Input and output directories
-input_directory = "documentation/input"  # Replace with your Markdown directory
-output_directory = "documentation/templates/docs"  # Replace with your desired Twig output directory
-
-# Perform the conversion
-convert_markdown_to_twig(input_directory, output_directory)
+# Run the conversion process
+if __name__ == "__main__":
+    print(f"Converting Markdown from {INPUT_DIR} to Twig templates in {OUTPUT_DIR}")
+    convert_markdown_to_twig(INPUT_DIR, OUTPUT_DIR)
