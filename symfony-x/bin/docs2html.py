@@ -12,10 +12,11 @@ TEMPLATE = """
 
 {% block content %}
     <article class="prose lg:prose-xl dark:prose-invert max-w-none">
-        {{ content|raw }}
+        {{ content }}
     </article>
 {% endblock %}
 """
+
 
 # Paths
 INPUT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../documentation/"))
