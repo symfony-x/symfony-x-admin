@@ -19,5 +19,8 @@
     <footer>
     {% include 'symfony-x/_footer.html.twig' %}
     </footer>
+            <div id="flash-container" data-turbo-temporary>
+            {{ include('symfony-x/_flashes.html.twig') }}
+        </div>
 </body>
 {% endblock %}
