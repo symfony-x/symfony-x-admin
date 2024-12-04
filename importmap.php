@@ -50,4 +50,7 @@ return [
     'flowbite-datepicker' => [
         'version' => '1.3.0',
     ],
+    'turbo-view-transitions' => [
+        'version' => '0.3.0',
+    ],
 ];
