@@ -7,8 +7,8 @@ import './bootstrap.js';
  */
 
 import './styles/app.css'; // i hate this line
-
+import 'flowbite';
 // import * as Turbo from '@hotwired/turbo'; // optionally disable turbo
 // Turbo.session.drive = false; // optionally disable turbo
 
-console.log('assets/app.js - check 🎉');
+// console.log('assets/app.js - check 🎉');
