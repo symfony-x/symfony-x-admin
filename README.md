@@ -2,31 +2,6 @@
 
 Symfony-X is a Symfony [LAST Stack](https://symfonycasts.com/screencast/last-stack/last-stack) rapid project development and deployment template for the purpose of creating a minimal viable product in minimal viable time.
 
-## Current Status
-
-# NOT ready yet
-
-ETA - oh, it just got real. My father's death could have easily been prevented with a basic app using simple LLMs. Need a couple days... but then... omg 
-
-#### As of 24 Nov 2024. 
-
-Check back soon!
-
-## Support [Ryan Weaver](https://github.com/weaverryan)
-
-Ryan has Glioblastoma (brain cancer - [Go Fund Me](http://gofund.me/f8e28d5f).) He's a fighter, writer for http://SymfonyCasts.com & proud Symfony core member.
-
-When I'm reading SymfonyDocs, it's Ryan's voice I hear in my mind. Gives me confidence and focus. 
-
-Ryan, you are in my prayers.  
-
-Also, my father. I love you. 
-
-## Requirements
-
-- **Git**: You got to git it to get it. 
-- **Docker & Docker Compose**: Containerized environments.
-
 ## Installation
 
 1. **Clone the Repository**
@@ -42,9 +17,25 @@ Also, my father. I love you.
    docker-compose up -d
    ```
 
+## Requirements
+
+- **Git**: You got to git it to get it. 
+- **Docker & Docker Compose**: Containerized environments.
+
+
 ## Documentation
 
    [Click Here](symfony-x/documentation/README.md) for the Symfony-X documentation.
+
+## Support [Ryan Weaver](https://github.com/weaverryan)
+
+Ryan has Glioblastoma (brain cancer - [Go Fund Me](http://gofund.me/f8e28d5f).) He's a fighter, writer for http://SymfonyCasts.com & proud Symfony core member.
+
+When I'm reading SymfonyDocs, it's Ryan's voice I hear in my mind. Gives me confidence and focus. 
+
+Ryan, you are in my prayers.  
+
+Also, my father. I love you. 
 
 ## About
 
