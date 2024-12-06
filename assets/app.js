@@ -12,6 +12,9 @@ import { initFlowbite } from 'flowbite';
 // import * as Turbo from '@hotwired/turbo'; // optionally disable turbo
 // Turbo.session.drive = false; // optionally disable turbo
 
+function shouldPerformTransition() {
+  return document.startViewTransition && !document.startViewTransition();
+}
 
 document.addEventListener('turbo:render', () => {
   initFlowbite();
