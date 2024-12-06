@@ -22,30 +22,29 @@ if [ "$1" = 'frankenphp' ] || [ "$1" = 'php' ] || [ "$1" = 'bin/console' ]; then
 #	fi
 
 	if [ -z "$(ls -A 'vendor/' 2>/dev/null)" ]; then
-#	if ! find vendor/ -mindepth 1 | read; then
 		composer install --prefer-dist --no-progress --no-interaction
 	fi
 
-	DIR_VAR="var/"
-	if [ -d "$DIR_VAR" ]; then
+#	DIR_VAR="var/"
+#	if [ -d "$DIR_VAR" ]; then
 		# echo "DIR_VAR '$DIR_VAR' exists."
 		#mkdir -p var/
 		#setfacl -R -m u:www-data:rwX -m u:"$(whoami)":rwX var
 		#setfacl -dR -m u:www-data:rwX -m u:"$(whoami)":rwX var
-	else
+#	else
 		# echo "DIR_VAR '$DIR_VAR' does not exist."
-	fi
+#	fi
 
 
-	DIR_TAILWIND="var/tailwind/"
-	if [ -d "$DIR_TAILWIND" ]; then
+#	DIR_TAILWIND="var/tailwind/"
+#	if [ -d "$DIR_TAILWIND" ]; then
 		# echo "DIR_TAILWIND '$DIR_TAILWIND' exists."
 		#mkdir -p var/tailwind
 		#setfacl -R -m u:www-data:rwX -m u:"$(whoami)":rwX var/tailwind
 		#setfacl -dR -m u:www-data:rwX -m u:"$(whoami)":rwX var/tailwind
-	else
+#	else
 		# echo "DIR_TAILWIND '$DIR_TAILWIND' does not exist."
-	fi
+#	fi
 
 # ---------------------------------------------------------------------------------------------------------------------------
 # don't need this here - symfony-x2 will have DB support
