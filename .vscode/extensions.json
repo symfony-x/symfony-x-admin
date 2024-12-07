@@ -1,5 +1,16 @@
 {
-    "recommendations": [
-        "amazonwebservices.amazon-q-vscode"
-    ]
+  "recommendations": [
+    "amazonwebservices.amazon-q-vscode",
+    "editorconfig.editorconfig",
+    "ms-azuretools.vscode-docker",
+    "devsense.composer-php-vscode",
+    "junstyle.php-cs-fixer",
+    "xdebug.php-debug",
+    "bmewburn.vscode-intelephense-client",
+    "zobo.php-intellisense",
+    "mblode.twig-language",
+    "bajdzis.vscode-twig-pack",
+    "redhat.vscode-yaml",
+    "devsense.phptools-vscode"
+  ]
 }
