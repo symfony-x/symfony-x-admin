@@ -7,7 +7,7 @@ Symfony-X is a Symfony [LAST Stack](https://symfonycasts.com/screencast/last-sta
 1. **Clone the Repository**
 
    ```bash
-   git clone https://https://github.com/xormania/symfony-x.git your-project-name
+   git clone https://https://github.com/symfony-x/symfony-x.git your-project-name
    cd your-project-name
    ```
 
@@ -35,7 +35,6 @@ When I'm reading SymfonyDocs, it's Ryan's voice I hear in my mind. Gives me conf
 
 Ryan, you are in my prayers.  
 
-Also, my father. I love you. 
 
 ## About
 
