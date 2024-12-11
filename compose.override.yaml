@@ -5,7 +5,7 @@ services:
     build:
       context: .
       target: frankenphp_dev
-    # image: ${IMAGES_PREFIX:-}app-symfony-x:dev # Explicitly tag the local image to prevent pull attempts
+    image: ${IMAGES_PREFIX:-}app-symfony-x:dev # Explicitly tag the local image to prevent pull attempts
     volumes:
       - ./:/app
       - ./var/tailwind:/app/var/tailwind
