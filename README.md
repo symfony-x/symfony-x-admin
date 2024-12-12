@@ -20,6 +20,7 @@ Symfony-X is a Symfony [LAST Stack](https://symfonycasts.com/screencast/last-sta
 
 ## Requirements
 
+- **PHP**: sudo apt install php
 - **Git**: You got to git it to get it. 
 - **Docker & Docker Compose**: Containerized environments.
 
