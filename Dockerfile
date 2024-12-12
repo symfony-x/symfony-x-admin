@@ -64,12 +64,6 @@ RUN set -eux; \
 
 COPY --link frankenphp/conf.d/20-app.dev.ini $PHP_INI_DIR/app.conf.d/
 
-# Ensure var/cache/dev exists and has correct permissions in dev environment
-RUN set -eux; \
-	mkdir -p /app/var/cache/dev /app/var/log; \
-	chown -R www-data:www-data /app/var; \
-	chmod -R u+rwX,g+rwX,o+rX /app/var
-
 CMD [ "frankenphp", "run", "--config", "/etc/caddy/Caddyfile", "--watch" ]
 
 # Prod FrankenPHP image
