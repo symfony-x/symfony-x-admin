@@ -30,3 +30,13 @@ symfony-x/dev/local/**
 symfony-x/dev/local/tmp/**
 # Do not ignore the specific file dev/local/readme.md
 !/symfony-x/dev/local/readme.md
+
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
