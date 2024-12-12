@@ -7,7 +7,7 @@ Symfony-X is a Symfony [LAST Stack](https://symfonycasts.com/screencast/last-sta
 1. **Clone the Repository**
 
    ```bash
-   git clone https://https://github.com/symfony-x/symfony-x.git your-project-name
+   git clone https://github.com/symfony-x/symfony-x.git your-project-name
    cd your-project-name
    ```
 
