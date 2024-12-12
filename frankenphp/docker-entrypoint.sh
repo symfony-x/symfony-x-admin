@@ -83,20 +83,6 @@ if [ "$1" = 'frankenphp' ] || [ "$1" = 'php' ] || [ "$1" = 'bin/console' ]; then
 	# these are probably superfluous - just in case
 	#setfacl -R -m u:www-data:rwX -m u:"$(whoami)":rwX var
 	#setfacl -dR -m u:www-data:rwX -m u:"$(whoami)":rwX var
-#chown -R www-data:www-data var
-#chmod -R u+rwX,g+rwX,o+rX var
-
-    # Ensure permissions for the 'var' directory
-    if [ -d "$WORK_DIR" ]; then
-        echo "Ensuring proper permissions for $WORK_DIR"
-        chown -R $USER:$GROUP "$WORK_DIR"
-        chmod -R u+rwX,g+rwX,o+rX "$WORK_DIR"
-    else
-        echo "Directory $WORK_DIR does not exist; creating it with proper permissions."
-        mkdir -p "$WORK_DIR"
-        chown -R $USER:$GROUP "$WORK_DIR"
-        chmod -R u+rwX,g+rwX,o+rX "$WORK_DIR"
-    fi
 
 	# Start Tailwind CSS build process in the background
 	# NOPE! Think i'll go another way - but leaving this here for now

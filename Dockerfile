@@ -26,11 +26,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 RUN set -eux; \
 	install-php-extensions \
-		@composer \
-		apcu \
-		intl \
-		opcache \
-		zip \
+	@composer \
+	apcu \
+	intl \
+	opcache \
+	zip \
 	;
 
 # https://getcomposer.org/doc/03-cli.md#composer-allow-superuser
@@ -59,10 +59,16 @@ RUN mv "$PHP_INI_DIR/php.ini-development" "$PHP_INI_DIR/php.ini"
 
 RUN set -eux; \
 	install-php-extensions \
-		xdebug \
+	xdebug \
 	;
 
 COPY --link frankenphp/conf.d/20-app.dev.ini $PHP_INI_DIR/app.conf.d/
+
+# Ensure var/cache/dev exists and has correct permissions in dev environment
+RUN set -eux; \
+	mkdir -p /app/var/cache/dev /app/var/log; \
+	chown -R www-data:www-data /app/var; \
+	chmod -R u+rwX,g+rwX,o+rX /app/var
 
 CMD [ "frankenphp", "run", "--config", "/etc/caddy/Caddyfile", "--watch" ]
 
