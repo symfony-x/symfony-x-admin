@@ -81,8 +81,10 @@ if [ "$1" = 'frankenphp' ] || [ "$1" = 'php' ] || [ "$1" = 'bin/console' ]; then
 
 
 	# these are probably superfluous - just in case
-	setfacl -R -m u:www-data:rwX -m u:"$(whoami)":rwX var
-	setfacl -dR -m u:www-data:rwX -m u:"$(whoami)":rwX var
+	#setfacl -R -m u:www-data:rwX -m u:"$(whoami)":rwX var
+	#setfacl -dR -m u:www-data:rwX -m u:"$(whoami)":rwX var
+chown -R www-data:www-data var
+chmod -R u+rwX,g+rwX,o+rX var
 
 	# Start Tailwind CSS build process in the background
 	# NOPE! Think i'll go another way - but leaving this here for now
