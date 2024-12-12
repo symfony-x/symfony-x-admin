@@ -3,14 +3,15 @@ twig:
     form_themes: ["@Flowbite/form/default.html.twig"]
 
     globals:
-        sx_github_url: "https://github.com/symfony-x"
-        sx_symfony_url: "https://symfony.com"
-        sx_tailwind_url: "https://tailwindcss.com/"
-        sx_flowbite_url: "https://flowbite.com/"
-        sx_turbo_url: "https://turbo.hotwired.dev/"
-        sx_stimulus_url: "https://stimulus.hotwired.dev/"
-        sx_live_url: "https://live.hotwired.dev/"
-        sx_assetmapper_url: "https://symfony.com/doc/current/frontend/asset_mapper.html"
+        sx_url_github: "https://github.com/symfony-x"
+        sx_url_license: "https://github.com/symfony-x/symfony-x/blob/master/LICENSE"
+        sx_url_symfony: "https://symfony.com"
+        sx_url_tailwind: "https://tailwindcss.com/"
+        sx_url_flowbite: "https://flowbite.com/"
+        sx_url_turbo: "https://turbo.hotwired.dev/"
+        sx_url_stimulus: "https://stimulus.hotwired.dev/"
+        sx_url_live: "https://live.hotwired.dev/"
+        sx_url_assetmapper: "https://symfony.com/doc/current/frontend/asset_mapper.html"
 
 when@test:
     twig:
