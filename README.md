@@ -9,9 +9,20 @@ Symfony-X is a Symfony [LAST Stack](https://symfonycasts.com/screencast/last-sta
    ```bash
    git clone https://github.com/symfony-x/symfony-x.git your-project-name
    cd your-project-name
-   sudo php bin/console tailwind:build
    ```
 
+2. **Install Composer Libraries**
+
+   ```bash
+   composer install
+   ```
+
+3. **Initial Setup for Symfony**
+
+   ```bash
+   sudo php bin/console tailwind:build
+   ```
+   
 4. **Build and Start Docker Containers**
 
    ```bash
