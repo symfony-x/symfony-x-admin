@@ -41,7 +41,7 @@ Symfony-X is a Symfony [LAST Stack](https://symfonycasts.com/screencast/last-sta
 
 ## Documentation
 
-   [Click Here](symfony-x/documentation/README.md) for the Symfony-X documentation.
+   [Click Here](symfony-x/documentation/symfony-x.md) for the Symfony-X documentation.
 
 ## Support [Ryan Weaver](https://github.com/weaverryan)
 
