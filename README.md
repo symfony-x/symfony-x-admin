@@ -85,9 +85,9 @@ While that's all nice, I'm lazier still... it HAS to be ridiculously easy to get
 
 Plans are for three github repos:
 
-- **Symfony-X** Super Simple Basic Web App, a simple template containing basic Symfony Web App and development features such as Dockerfile and production deployments. 
-- **Symfony-X2** Forked from Symfony-X, adds the development and project environment (Database, Docker Compose, AI). Useful for creating micro-services.
-- **Symfony-XXX** Forked from Symfony-X2, adds advanced web app features such as Users, OAuth, Dashboards, API libraries, DevOps.
+- **Symfony-X** Super Simple Basic Web App, a simple template containing basic Symfony Web App and development features such as Dockerfile. 
+- **Symfony-X2** Forked from Symfony-X, adds the development and project environment, deployments, Docker (Databases, Docker Compose, AI, Local LLM, Agentic Workflows, etc., etc.). Useful for creating / deploying micro-services and websites. Introduces cloud-stack features.
+- **Symfony-XXX** Forked from Symfony-X2, adds advanced web app features such as Users, OAuth, Dashboards, API libraries, DevOps. 
 
 Choose which to use based on your needs.
 
