@@ -1,11 +1,15 @@
 # Development environment override
+networks:
+  sx-dev:
+
 services:
   php:
     container_name: symfony-x
     build:
       context: .
       target: frankenphp_dev
-    image: ${IMAGES_PREFIX:-}app-symfony-x:dev # Explicitly tag the local image to prevent pull attempts
+    image: ${IMAGES_PREFIX:-}app-symfony-x2:dev # Explicitly tag the local image to prevent pull attempts
+    networks: ['sx-dev']
     volumes:
       - ./:/app
       - ./var/tailwind:/app/var/tailwind
