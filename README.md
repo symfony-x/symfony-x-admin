@@ -17,12 +17,14 @@ Symfony-X is a Symfony [LAST Stack](https://symfonycasts.com/screencast/last-sta
    composer install
    ```
 
-3. **Initial Setup for Symfony**
+3. **Initial Setup for Tailwind**
 
-   ```bash
-   sudo php bin/console tailwind:build
-   ```
-   
+   SUDO sucks, but i'm in a hurry - any suggestions?
+
+      ```bash
+      sudo php bin/console tailwind:build
+      ```
+    
 4. **Build and Start Docker Containers**
 
    ```bash
