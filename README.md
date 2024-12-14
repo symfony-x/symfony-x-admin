@@ -1,13 +1,13 @@
-# Symfony-X
+# Symfony-X2
 
-Symfony-X is a Symfony [LAST Stack](https://symfonycasts.com/screencast/last-stack/last-stack) rapid project development and deployment template for the purpose of creating a minimal viable product in minimal viable time.
+Symfony-X2 is a Symfony [LAST Stack](https://symfonycasts.com/screencast/last-stack/last-stack) rapid project development and deployment template for the purpose of creating a minimal viable product in minimal viable time. Based on [Symfony-X](https://github.com/symfony-x/symfony-x), it adds database and a comprehensive docker environment that add AI and other capabilities.
 
 ## Installation
 
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/symfony-x/symfony-x.git your-project-name
+   git clone https://github.com/symfony-x/symfony-x2.git your-project-name
    cd your-project-name
    ```
 
