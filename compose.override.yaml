@@ -74,7 +74,7 @@ services:
       - host.docker.internal:host-gateway
     tty: true
 
-# now comes the AI starter kit stuff
+# use same postgres container as n8n for symfony-x development
   postgres:
     image: postgres:16-alpine
     networks: ['sx-dev']
@@ -91,6 +91,7 @@ services:
       timeout: 5s
       retries: 10
 
+# now comes the AI starter kit stuff
   n8n-import:
     <<: *service-n8n
     container_name: n8n-import
@@ -161,7 +162,7 @@ services:
 ###< symfony/mercure-bundle ###
 
 ###> doctrine/doctrine-bundle ###
-  database:
-    ports:
-      - "5432"
+#  database:
+#    ports:
+#      - "5432"
 ###< doctrine/doctrine-bundle ###
