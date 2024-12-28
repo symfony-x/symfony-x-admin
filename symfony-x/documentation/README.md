@@ -1,4 +1,4 @@
-# Symfony-X Documentation
+# Symfony-XXX Documentation
 
-This section is for SX_VERSION
+This section is for XXX
 
