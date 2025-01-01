@@ -1,15 +1,15 @@
-# Symfony-X2
+# Symfony-XXX
 
-Barely Alpha
+Not Alpha Yet - couple weeks at least. 
 
-Symfony-X2 is a Symfony [LAST Stack](https://symfonycasts.com/screencast/last-stack/last-stack) rapid project development and deployment template for the purpose of creating a minimal viable product in minimal viable time. Based on [Symfony-X](https://github.com/symfony-x/symfony-x), it adds database and a basic docker compose environment for Postgres DB.
+Symfony-XXX is a Symfony [LAST Stack](https://symfonycasts.com/screencast/last-stack/last-stack) rapid project development and deployment template for the purpose of creating a minimal viable product in minimal viable time. Based on [Symfony-X](https://github.com/symfony-x/symfony-x), it adds database and a basic docker compose environment for Postgres DB.
 
 ## Installation
 
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/symfony-x/symfony-x2.git your-project-name
+   git clone https://github.com/symfony-x/symfony-xxx.git your-project-name
    cd your-project-name
    ```
 
@@ -70,8 +70,6 @@ I've seen the limitations of Large Language Models (LLMs) when used to assist wi
 - **Too many versions**: Symfony has been around for a long time and has evolved significantly. Unfortunately, this means outdated and conflicting information is often used to train LLMs, leading to confusion (e.g., mixing up features across versions) and outdated techniques (e.g., using annotations instead of attributes) being suggested in unpredictable ways. Additionally, information on the latest Symfony version can be overshadowed by prior versions when training LLMs, leading to subtle hallucinations. 
 
 - **Not current**: This is my largest overall frustration since i started using ChatGPT almost 2 years ago: The Cutoff Date!  Some parts of the stack are relatively new and evolve rapidly. Combined with the sheer number of prior Symfony versions over-represented in the model's training; you're in No Man's Land. While Retrieval-Augmented Generation (RAG) and AI Search can help, they need to be tailored for your specific project. Fine-tuning models with current, stack-specific information (versions of PHP, Symfony, packages, libraries, API, CLI, etc.) combined with RAG-Graph seems like the right direction. 
-
-Check out this [video](https://www.youtube.com/watch?v=5YZ8mMyHJHg) to understand some challenges in applying AI effectively. 
 
 I have some ideas to help. A web app to handle RAG with your project's codebase. Use with your API calls - crafting every interaction with knowledge of your code and tailored for Symfony-X stack.
 
