@@ -1,6 +1,8 @@
-# Symfony-XXX
+# Symfony-X Admin (Web App)
 
-Not Alpha Yet - couple weeks at least. 
+Check back later.
+
+Based on Symfony-XXX
 
 Symfony-XXX is a Symfony [LAST Stack](https://symfonycasts.com/screencast/last-stack/last-stack) rapid project development and deployment template for the purpose of creating a minimal viable product in minimal viable time. Based on [Symfony-X2](https://github.com/symfony-x/symfony-x2), it adds users / dashboards / ai dev env.
 
@@ -9,7 +11,7 @@ Symfony-XXX is a Symfony [LAST Stack](https://symfonycasts.com/screencast/last-s
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/symfony-x/symfony-xxx.git your-project-name
+   git clone https://github.com/symfony-x/symfony-x-admin.git your-project-name
    cd your-project-name
    ```
 
