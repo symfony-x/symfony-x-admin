@@ -2,6 +2,8 @@
 
 Check back later.
 
+App for using ai with Symfony project
+
 Based on Symfony-XXX
 
 Symfony-XXX is a Symfony [LAST Stack](https://symfonycasts.com/screencast/last-stack/last-stack) rapid project development and deployment template for the purpose of creating a minimal viable product in minimal viable time. Based on [Symfony-X2](https://github.com/symfony-x/symfony-x2), it adds users / dashboards / ai dev env.
